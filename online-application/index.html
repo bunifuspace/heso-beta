@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Apply Health and Environmental Solution Organization</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+      integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/apply.css" />
+  </head>
+  <body>
+    <main class="application-page">
+      <section class="application-hero">
+        <div class="application-hero-content">
+          <span>Online Application</span>
+          <h1>Get involved with HESO.</h1>
+          <p>
+            Tell us about yourself, your interests, and how you would like to
+            contribute to healthier and more resilient communities.
+          </p>
+        </div>
+
+        <div class="application-hero-image">
+          <img
+            src="/uploads/annie-spratt-qMvcuYEPnO0-unsplash.jpg"
+            alt="People working together in a community"
+          />
+        </div>
+      </section>
+
+      <section class="application-section">
+        <div class="application-intro">
+          <span>Before you begin</span>
+          <h2>A few details about your application.</h2>
+          <p>
+            Use this form to apply for opportunities with HESO, including
+            volunteering, internships, partnerships, and other forms of
+            participation.
+          </p>
+        </div>
+
+        <form class="application-form" action="#" method="post">
+          <div class="form-section">
+            <div class="form-section-heading">
+              <span>01</span>
+              <div>
+                <h3>Personal information</h3>
+                <p>Tell us a little about yourself.</p>
+              </div>
+            </div>
+
+            <div class="form-grid">
+              <label>
+                <span>First name</span>
+                <input
+                  type="text"
+                  name="first_name"
+                  autocomplete="given-name"
+                  required
+                />
+              </label>
+
+              <label>
+                <span>Last name</span>
+                <input
+                  type="text"
+                  name="last_name"
+                  autocomplete="family-name"
+                  required
+                />
+              </label>
+
+              <label>
+                <span>Email address</span>
+                <input
+                  type="email"
+                  name="email"
+                  autocomplete="email"
+                  required
+                />
+              </label>
+
+              <label>
+                <span>Phone number</span>
+                <input type="tel" name="phone" autocomplete="tel" required />
+              </label>
+
+              <label>
+                <span>Location</span>
+                <input
+                  type="text"
+                  name="location"
+                  placeholder="City / region"
+                  autocomplete="address-level2"
+                  required
+                />
+              </label>
+
+              <label>
+                <span>Age</span>
+                <input type="number" name="age" min="16" max="100" required />
+              </label>
+            </div>
+          </div>
+
+          <div class="form-section">
+            <div class="form-section-heading">
+              <span>02</span>
+              <div>
+                <h3>What brings you here?</h3>
+                <p>Select the opportunity you are interested in.</p>
+              </div>
+            </div>
+
+            <div class="application-options">
+              <label class="application-option">
+                <input
+                  type="radio"
+                  name="application_type"
+                  value="volunteer"
+                  required
+                />
+                <span>
+                  <strong>Volunteer</strong>
+                  <small>Share your time and skills.</small>
+                </span>
+              </label>
+
+              <label class="application-option">
+                <input
+                  type="radio"
+                  name="application_type"
+                  value="internship"
+                />
+                <span>
+                  <strong>Internship</strong>
+                  <small>Gain practical experience.</small>
+                </span>
+              </label>
+
+              <label class="application-option">
+                <input
+                  type="radio"
+                  name="application_type"
+                  value="partnership"
+                />
+                <span>
+                  <strong>Partnership</strong>
+                  <small>Explore collaboration with HESO.</small>
+                </span>
+              </label>
+
+              <label class="application-option">
+                <input type="radio" name="application_type" value="program" />
+                <span>
+                  <strong>Program participation</strong>
+                  <small>Participate in a HESO initiative.</small>
+                </span>
+              </label>
+            </div>
+          </div>
+
+          <div class="form-section">
+            <div class="form-section-heading">
+              <span>03</span>
+              <div>
+                <h3>Your background</h3>
+                <p>Help us understand your experience and interests.</p>
+              </div>
+            </div>
+
+            <div class="form-grid">
+              <label>
+                <span>Education / qualification</span>
+                <input
+                  type="text"
+                  name="education"
+                  placeholder="e.g. Bachelor's degree"
+                />
+              </label>
+
+              <label>
+                <span>Area of expertise</span>
+                <input
+                  type="text"
+                  name="expertise"
+                  placeholder="e.g. Public health"
+                />
+              </label>
+
+              <label class="full">
+                <span>Relevant experience</span>
+                <textarea
+                  name="experience"
+                  rows="5"
+                  placeholder="Tell us briefly about your experience..."
+                ></textarea>
+              </label>
+
+              <label class="full">
+                <span>Skills you can contribute</span>
+                <textarea
+                  name="skills"
+                  rows="4"
+                  placeholder="Tell us about your skills..."
+                ></textarea>
+              </label>
+            </div>
+          </div>
+
+          <div class="form-section">
+            <div class="form-section-heading">
+              <span>04</span>
+              <div>
+                <h3>Your interest</h3>
+                <p>Tell us what you would like to contribute to.</p>
+              </div>
+            </div>
+
+            <div class="interest-grid">
+              <label>
+                <input
+                  type="checkbox"
+                  name="interest[]"
+                  value="public-health"
+                />
+                <span>Public Health</span>
+              </label>
+
+              <label>
+                <input type="checkbox" name="interest[]" value="environment" />
+                <span>Environment</span>
+              </label>
+
+              <label>
+                <input type="checkbox" name="interest[]" value="agriculture" />
+                <span>Sustainable Agriculture</span>
+              </label>
+
+              <label>
+                <input type="checkbox" name="interest[]" value="wash" />
+                <span>Water & Sanitation</span>
+              </label>
+
+              <label>
+                <input type="checkbox" name="interest[]" value="climate" />
+                <span>Climate Resilience</span>
+              </label>
+
+              <label>
+                <input type="checkbox" name="interest[]" value="research" />
+                <span>Research & Innovation</span>
+              </label>
+
+              <label>
+                <input type="checkbox" name="interest[]" value="education" />
+                <span>Education & Community Empowerment</span>
+              </label>
+
+              <label>
+                <input type="checkbox" name="interest[]" value="livelihoods" />
+                <span>Sustainable Livelihoods</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="form-section">
+            <div class="form-section-heading">
+              <span>05</span>
+              <div>
+                <h3>Tell us more</h3>
+                <p>Anything else you would like HESO to know?</p>
+              </div>
+            </div>
+
+            <label class="full">
+              <span>Message</span>
+              <textarea
+                name="message"
+                rows="7"
+                placeholder="Tell us why you would like to work with HESO..."
+                required
+              ></textarea>
+            </label>
+          </div>
+
+          <div class="application-submit">
+            <label class="consent">
+              <input type="checkbox" name="consent" required />
+              <span>
+                I confirm that the information provided is accurate and agree
+                that HESO may contact me regarding this application.
+              </span>
+            </label>
+
+            <button type="submit">
+              Submit application
+              <span>↗</span>
+            </button>
+          </div>
+        </form>
+      </section>
+
+      <section class="application-note">
+        <div>
+          <span>Questions?</span>
+          <h2>Prefer to talk first?</h2>
+          <p>
+            If you have questions about an opportunity or are unsure which
+            option is right for you, contact the HESO team directly.
+          </p>
+
+          <div>
+            <a href="mailto:info@heso.or.tz">Email HESO <span>↗</span></a>
+            <a href="tel:+255749907765">Call us <span>↗</span></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-main">
+        <div class="footer-brand">
+          <a href="/" class="footer-logo">HESO</a>
+          <p>Better health, a greener future.</p>
+
+          <div class="footer-socials" aria-label="Social media">
+            <a href="#" aria-label="Facebook">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="#" aria-label="Instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="#" aria-label="X">
+              <i class="fa-brands fa-x-twitter"></i>
+            </a>
+            <a href="#" aria-label="LinkedIn">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+          </div>
+        </div>
+
+        <nav class="footer-column" aria-label="Explore">
+          <h3>Explore</h3>
+          <a href="/">Home</a>
+          <a href="health">Health</a>
+          <a href="environment">Environment</a>
+          <a href="events">Events</a>
+          <a href="about">About us</a>
+        </nav>
+
+        <nav class="footer-column" aria-label="Our work">
+          <h3>Our Work</h3>
+          <a href="#">Health Promotion</a>
+          <a href="#">Disease Prevention</a>
+          <a href="#">Water and Sanitation</a>
+          <a href="#">Sustainable Agriculture</a>
+          <a href="#">Climate Resilience</a>
+        </nav>
+
+        <div class="footer-column contact">
+          <h3>Get in touch</h3>
+          <a href="mailto:info@heso.or.tz">info@heso.or.tz</a>
+          <a href="tel:+255749907765">+255 749 907 765</a>
+          <p>Arusha, Tanzania</p>
+          <a class="footer-action" href="contact">
+            Contact us
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 HESO. All rights reserved.</p>
+
+        <nav aria-label="Legal">
+          <a href="privacy">Privacy</a>
+          <a href="terms">Terms</a>
+          <a href="legal">Legal</a>
+        </nav>
+
+        <p>
+          Powered by
+          <a href="https://bunifu.space">bunifu.space</a>
+        </p>
+      </div>
+    </footer>
+
+    <script src="/script/app.js"></script>
+  </body>
+</html>

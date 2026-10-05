@@ -1,0 +1,905 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Health and Environmental Solution Organization</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+      integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <header class="site-header" id="site-header">
+      <div class="nav-shell">
+        <a href="/" class="site-logo" aria-label="HESO Home"> HESO </a>
+
+        <nav class="desktop-nav" aria-label="Main navigation">
+          <div class="nav-item">
+            <a href="/about">About</a>
+            <button
+              class="nav-trigger"
+              aria-label="Open About menu"
+              data-menu="about-menu"
+            >
+              +
+            </button>
+          </div>
+
+          <div class="nav-item">
+            <a href="/programs">Programs</a>
+            <button
+              class="nav-trigger"
+              aria-label="Open Programs menu"
+              data-menu="programs-menu"
+            >
+              +
+            </button>
+          </div>
+
+          <div class="nav-item">
+            <a href="/work">Work</a>
+            <button
+              class="nav-trigger"
+              aria-label="Open Work menu"
+              data-menu="work-menu"
+            >
+              +
+            </button>
+          </div>
+
+          <div class="nav-item">
+            <a href="/knowledge">Knowledge</a>
+            <button
+              class="nav-trigger"
+              aria-label="Open Knowledge menu"
+              data-menu="knowledge-menu"
+            >
+              +
+            </button>
+          </div>
+
+          <div class="nav-item">
+            <a href="/get-involved">Get Involved</a>
+            <button
+              class="nav-trigger"
+              aria-label="Open Get Involved menu"
+              data-menu="involved-menu"
+            >
+              +
+            </button>
+          </div>
+
+          <a href="/contact" class="nav-contact">Contact</a>
+        </nav>
+
+        <a href="/get-involved/donate" class="nav-donate"> Donate </a>
+
+        <button
+          class="mobile-menu-button"
+          id="mobile-menu-button"
+          aria-label="Open navigation"
+        >
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+
+      <div class="desktop-mega-menu" id="about-menu">
+        <div class="mega-inner">
+          <div class="mega-intro">
+            <span>01 · Organization</span>
+            <h2>Who we are.</h2>
+            <p>
+              Discover the people, story, approach, and partnerships behind
+              HESO.
+            </p>
+            <a href="/about">Explore About ↗</a>
+          </div>
+
+          <div class="mega-links">
+            <a href="/about/our-story">
+              <small>01</small>
+              <strong>Our Story</strong>
+              <span>↗</span>
+            </a>
+
+            <a href="/about/team">
+              <small>02</small>
+              <strong>Our Team</strong>
+              <span>↗</span>
+            </a>
+
+            <a href="/about/approach">
+              <small>03</small>
+              <strong>Our Approach</strong>
+              <span>↗</span>
+            </a>
+
+            <a href="/about/partners">
+              <small>04</small>
+              <strong>Partners</strong>
+              <span>↗</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="desktop-mega-menu" id="programs-menu">
+        <div class="mega-inner">
+          <div class="mega-intro">
+            <span>02 · What We Do</span>
+            <h2>Our programs.</h2>
+            <p>
+              Working across connected challenges affecting people, communities,
+              and the environment.
+            </p>
+            <a href="/programs">Explore Programs ↗</a>
+          </div>
+
+          <div class="mega-links">
+            <a href="/programs/health">
+              <small>01</small>
+              <strong>Health</strong>
+              <span>↗</span>
+            </a>
+
+            <a href="/programs/environment">
+              <small>02</small>
+              <strong>Environment</strong>
+              <span>↗</span>
+            </a>
+
+            <a href="/programs/wash">
+              <small>03</small>
+              <strong>WASH</strong>
+              <span>↗</span>
+            </a>
+
+            <a href="/programs/agriculture">
+              <small>04</small>
+              <strong>Agriculture</strong>
+              <span>↗</span>
+            </a>
+
+            <a href="/programs/climate-resilience">
+              <small>05</small>
+              <strong>Climate Resilience</strong>
+              <span>↗</span>
+            </a>
+
+            <a href="/programs/sustainable-livelihoods">
+              <small>06</small>
+              <strong>Sustainable Livelihoods</strong>
+              <span>↗</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="desktop-mega-menu" id="work-menu">
+        <div class="mega-inner">
+          <div class="mega-intro">
+            <span>03 · Our Work</span>
+            <h2>What we're doing.</h2>
+            <p>Explore our projects, impact, stories, and events.</p>
+            <a href="/work">Explore Our Work ↗</a>
+          </div>
+
+          <div class="mega-links">
+            <a href="/work/projects">
+              <small>01</small>
+              <strong>Projects</strong>
+              <span>↗</span>
+            </a>
+
+            <a href="/work/impact">
+              <small>02</small>
+              <strong>Impact</strong>
+              <span>↗</span>
+            </a>
+
+            <a href="/work/stories">
+              <small>03</small>
+              <strong>Stories</strong>
+              <span>↗</span>
+            </a>
+
+            <a href="/work/events">
+              <small>04</small>
+              <strong>Events</strong>
+              <span>↗</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="desktop-mega-menu" id="knowledge-menu">
+        <div class="mega-inner">
+          <div class="mega-intro">
+            <span>04 · Knowledge</span>
+            <h2>Learn with us.</h2>
+            <p>Research, resources, reports, and updates from our work.</p>
+            <a href="/knowledge">Explore Knowledge ↗</a>
+          </div>
+
+          <div class="mega-links">
+            <a href="/knowledge/research">
+              <small>01</small>
+              <strong>Research</strong>
+              <span>↗</span>
+            </a>
+
+            <a href="/knowledge/resources">
+              <small>02</small>
+              <strong>Resources</strong>
+              <span>↗</span>
+            </a>
+
+            <a href="/knowledge/reports">
+              <small>03</small>
+              <strong>Reports</strong>
+              <span>↗</span>
+            </a>
+
+            <a href="/knowledge/updates">
+              <small>04</small>
+              <strong>Updates</strong>
+              <span>↗</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="desktop-mega-menu" id="involved-menu">
+        <div class="mega-inner">
+          <div class="mega-intro">
+            <span>05 · Take Part</span>
+            <h2>Get involved.</h2>
+            <p>
+              Your time, skills, resources, and ideas can become part of the
+              work.
+            </p>
+            <a href="/get-involved">Explore Opportunities ↗</a>
+          </div>
+
+          <div class="mega-links">
+            <a href="/get-involved/volunteer">
+              <small>01</small>
+              <strong>Volunteer</strong>
+              <span>↗</span>
+            </a>
+
+            <a href="/get-involved/internship">
+              <small>02</small>
+              <strong>Internship</strong>
+              <span>↗</span>
+            </a>
+
+            <a href="/get-involved/partner">
+              <small>03</small>
+              <strong>Partner</strong>
+              <span>↗</span>
+            </a>
+
+            <a href="/get-involved/donate">
+              <small>04</small>
+              <strong>Donate</strong>
+              <span>↗</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="mobile-navigation" id="mobile-navigation">
+        <div class="mobile-nav-top">
+          <a href="/" class="site-logo">HESO</a>
+
+          <button
+            class="mobile-close"
+            id="mobile-close"
+            aria-label="Close navigation"
+          >
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+
+        <div class="mobile-nav-content">
+          <div class="mobile-main-menu" id="mobile-main-menu">
+            <a href="/" class="mobile-home-link">
+              <span>00</span>
+              Home
+              <i>↗</i>
+            </a>
+
+            <button class="mobile-branch" data-mobile-menu="about-mobile">
+              <span>01</span>
+              <strong>About</strong>
+              <i>+</i>
+            </button>
+
+            <button class="mobile-branch" data-mobile-menu="programs-mobile">
+              <span>02</span>
+              <strong>Programs</strong>
+              <i>+</i>
+            </button>
+
+            <button class="mobile-branch" data-mobile-menu="work-mobile">
+              <span>03</span>
+              <strong>Work</strong>
+              <i>+</i>
+            </button>
+
+            <button class="mobile-branch" data-mobile-menu="knowledge-mobile">
+              <span>04</span>
+              <strong>Knowledge</strong>
+              <i>+</i>
+            </button>
+
+            <button class="mobile-branch" data-mobile-menu="involved-mobile">
+              <span>05</span>
+              <strong>Get Involved</strong>
+              <i>+</i>
+            </button>
+
+            <a href="/contact" class="mobile-contact-link">
+              <span>06</span>
+              Contact
+              <i>↗</i>
+            </a>
+          </div>
+
+          <div class="mobile-submenu" id="about-mobile">
+            <div class="mobile-submenu-header">
+              <button class="mobile-back">←</button>
+              <span>About</span>
+            </div>
+
+            <a href="/about" class="mobile-parent-link">
+              <small>Overview</small>
+              <strong>About HESO</strong>
+              <i>↗</i>
+            </a>
+
+            <a href="/about/our-story">
+              <small>01</small>
+              <strong>Our Story</strong>
+              <i>↗</i>
+            </a>
+
+            <a href="/about/team">
+              <small>02</small>
+              <strong>Our Team</strong>
+              <i>↗</i>
+            </a>
+
+            <a href="/about/approach">
+              <small>03</small>
+              <strong>Our Approach</strong>
+              <i>↗</i>
+            </a>
+
+            <a href="/about/partners">
+              <small>04</small>
+              <strong>Partners</strong>
+              <i>↗</i>
+            </a>
+          </div>
+
+          <div class="mobile-submenu" id="programs-mobile">
+            <div class="mobile-submenu-header">
+              <button class="mobile-back">←</button>
+              <span>Programs</span>
+            </div>
+
+            <a href="/programs" class="mobile-parent-link">
+              <small>Overview</small>
+              <strong>All Programs</strong>
+              <i>↗</i>
+            </a>
+
+            <a href="/programs/health">
+              <small>01</small>
+              <strong>Health</strong>
+              <i>↗</i>
+            </a>
+
+            <a href="/programs/environment">
+              <small>02</small>
+              <strong>Environment</strong>
+              <i>↗</i>
+            </a>
+
+            <a href="/programs/wash">
+              <small>03</small>
+              <strong>WASH</strong>
+              <i>↗</i>
+            </a>
+
+            <a href="/programs/agriculture">
+              <small>04</small>
+              <strong>Agriculture</strong>
+              <i>↗</i>
+            </a>
+
+            <a href="/programs/climate-resilience">
+              <small>05</small>
+              <strong>Climate Resilience</strong>
+              <i>↗</i>
+            </a>
+
+            <a href="/programs/sustainable-livelihoods">
+              <small>06</small>
+              <strong>Sustainable Livelihoods</strong>
+              <i>↗</i>
+            </a>
+          </div>
+
+          <div class="mobile-submenu" id="work-mobile">
+            <div class="mobile-submenu-header">
+              <button class="mobile-back">←</button>
+              <span>Work</span>
+            </div>
+
+            <a href="/work" class="mobile-parent-link">
+              <small>Overview</small>
+              <strong>Our Work</strong>
+              <i>↗</i>
+            </a>
+
+            <a href="/work/projects">
+              <small>01</small>
+              <strong>Projects</strong>
+              <i>↗</i>
+            </a>
+
+            <a href="/work/impact">
+              <small>02</small>
+              <strong>Impact</strong>
+              <i>↗</i>
+            </a>
+
+            <a href="/work/stories">
+              <small>03</small>
+              <strong>Stories</strong>
+              <i>↗</i>
+            </a>
+
+            <a href="/work/events">
+              <small>04</small>
+              <strong>Events</strong>
+              <i>↗</i>
+            </a>
+          </div>
+
+          <div class="mobile-submenu" id="knowledge-mobile">
+            <div class="mobile-submenu-header">
+              <button class="mobile-back">←</button>
+              <span>Knowledge</span>
+            </div>
+
+            <a href="/knowledge" class="mobile-parent-link">
+              <small>Overview</small>
+              <strong>Knowledge Hub</strong>
+              <i>↗</i>
+            </a>
+
+            <a href="/knowledge/research">
+              <small>01</small>
+              <strong>Research</strong>
+              <i>↗</i>
+            </a>
+
+            <a href="/knowledge/resources">
+              <small>02</small>
+              <strong>Resources</strong>
+              <i>↗</i>
+            </a>
+
+            <a href="/knowledge/reports">
+              <small>03</small>
+              <strong>Reports</strong>
+              <i>↗</i>
+            </a>
+
+            <a href="/knowledge/updates">
+              <small>04</small>
+              <strong>Updates</strong>
+              <i>↗</i>
+            </a>
+          </div>
+
+          <div class="mobile-submenu" id="involved-mobile">
+            <div class="mobile-submenu-header">
+              <button class="mobile-back">←</button>
+              <span>Get Involved</span>
+            </div>
+
+            <a href="/get-involved" class="mobile-parent-link">
+              <small>Overview</small>
+              <strong>Get Involved</strong>
+              <i>↗</i>
+            </a>
+
+            <a href="/get-involved/volunteer">
+              <small>01</small>
+              <strong>Volunteer</strong>
+              <i>↗</i>
+            </a>
+
+            <a href="/get-involved/internship">
+              <small>02</small>
+              <strong>Internship</strong>
+              <i>↗</i>
+            </a>
+
+            <a href="/get-involved/partner">
+              <small>03</small>
+              <strong>Partner</strong>
+              <i>↗</i>
+            </a>
+
+            <a href="/get-involved/donate">
+              <small>04</small>
+              <strong>Donate</strong>
+              <i>↗</i>
+            </a>
+          </div>
+        </div>
+
+        <div class="mobile-nav-footer">
+          <a href="/contact">Contact HESO ↗</a>
+          <a href="/sitemap">Sitemap ↗</a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div
+          class="cover"
+          role="img"
+          aria-label="Community health and environmental work"
+        ></div>
+
+        <div class="data">
+          <p class="eyebrow">Health · Environment · Community</p>
+          <h1 id="hero-title">We protect what we love</h1>
+          <a href="about">HESO's purpose <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+
+      <section class="cat" aria-label="Our focus areas">
+        <a href="health">
+          <div class="health">
+            <div class="metadata">
+              <small>We Protect</small>
+              <h2>Health</h2>
+            </div>
+            <img
+              src="uploads/svg/health-svgrepo-com.svg"
+              alt=""
+              loading="lazy"
+            />
+          </div>
+        </a>
+
+        <a href="environment">
+          <div class="environment">
+            <div class="metadata">
+              <small>We Preserve</small>
+              <h2>Environment</h2>
+            </div>
+            <img
+              src="uploads/svg/enviroment-green-leaf-nature-svgrepo-com.svg"
+              alt=""
+              loading="lazy"
+            />
+          </div>
+        </a>
+      </section>
+
+      <section class="expertise" aria-labelledby="expertise-title">
+        <div class="section-head">
+          <div class="section-title">
+            <h2 id="expertise-title">What We <span>Do</span></h2>
+            <i aria-hidden="true"></i>
+          </div>
+
+          <div class="carousel-controls" aria-label="Expertise navigation">
+            <button class="prev" type="button" aria-label="Previous slide">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M15 18l-6-6 6-6"></path>
+              </svg>
+            </button>
+
+            <button class="next" type="button" aria-label="Next slide">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M9 18l6-6-6-6"></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="expertise-window">
+          <div class="expertise-track">
+            <a href="#" class="expertise-card">
+              <div class="card-image">
+                <img
+                  src="uploads/annie-spratt-qMvcuYEPnO0-unsplash.jpg"
+                  alt="Health promotion"
+                  loading="lazy"
+                />
+              </div>
+              <h3>Health Promotion</h3>
+              <p>
+                We promote healthier communities through education, awareness,
+                and accessible health solutions.
+              </p>
+            </a>
+
+            <a href="#" class="expertise-card">
+              <div class="card-image">
+                <img
+                  src="uploads/hush-naidoo-jade-photography-yo01Z-9HQAw-unsplash.jpg"
+                  alt="Disease prevention"
+                  loading="lazy"
+                />
+              </div>
+              <h3>Disease Prevention</h3>
+              <p>
+                We support prevention and early action to reduce the impact of
+                communicable and non-communicable diseases.
+              </p>
+            </a>
+
+            <a href="#" class="expertise-card">
+              <div class="card-image">
+                <img
+                  src="uploads/mrjn-photography-YpZ2cj4s0oo-unsplash.jpg"
+                  alt="Water and sanitation"
+                  loading="lazy"
+                />
+              </div>
+              <h3>Water and Sanitation</h3>
+              <p>
+                We improve access to safe water and sanitation for healthier and
+                more sustainable communities.
+              </p>
+            </a>
+
+            <a href="#" class="expertise-card">
+              <div class="card-image">
+                <img
+                  src="uploads/jozsef-hocza-5Mx-o-H8sqY-unsplash.jpg"
+                  alt="Hygiene education"
+                  loading="lazy"
+                />
+              </div>
+              <h3>Hygiene Education</h3>
+              <p>
+                We promote practical hygiene practices that protect health and
+                improve everyday living conditions.
+              </p>
+            </a>
+
+            <a href="#" class="expertise-card">
+              <div class="card-image">
+                <img
+                  src="uploads/roman-synkevych-fjj7lVpCxRE-unsplash.jpg"
+                  alt="Sustainable agriculture"
+                  loading="lazy"
+                />
+              </div>
+              <h3>Sustainable Agriculture</h3>
+              <p>
+                We promote climate-smart farming practices that strengthen
+                smallholder livelihoods and sustainability.
+              </p>
+            </a>
+
+            <a href="#" class="expertise-card">
+              <div class="card-image">
+                <img
+                  src="uploads/anna-pelzer-IGfIGP5ONV0-unsplash.jpg"
+                  alt="Nutrition and food security"
+                  loading="lazy"
+                />
+              </div>
+              <h3>Nutrition and Food Security</h3>
+              <p>
+                We support better nutrition and food security through
+                sustainable agricultural solutions.
+              </p>
+            </a>
+
+            <a href="#" class="expertise-card">
+              <div class="card-image">
+                <img
+                  src="uploads/gaf-clickz-gryMACx9reI-unsplash.jpg"
+                  alt="Environmental conservation"
+                  loading="lazy"
+                />
+              </div>
+              <h3>Environmental Conservation</h3>
+              <p>
+                We protect ecosystems and reduce environmental harm through
+                sustainable practices.
+              </p>
+            </a>
+
+            <a href="#" class="expertise-card">
+              <div class="card-image">
+                <img
+                  src="uploads/casey-horner-4rDCa5hBlCs-unsplash.jpg"
+                  alt="Climate resilience"
+                  loading="lazy"
+                />
+              </div>
+              <h3>Climate Resilience</h3>
+              <p>
+                We build resilient communities through climate-smart strategies
+                and sustainable solutions.
+              </p>
+            </a>
+          </div>
+        </div>
+
+        <div class="slider-footer">
+          <div class="slider-dots" aria-label="Expertise slides"></div>
+        </div>
+      </section>
+
+      <section class="seed" aria-labelledby="seed-title">
+        <div
+          class="image"
+          role="img"
+          aria-label="Community and environmental development"
+        ></div>
+
+        <div class="data">
+          <h3>Seeds of change</h3>
+          <h2 id="seed-title">Create a Lasting Change</h2>
+          <p>
+            Donate to help build healthier communities, sustainable livelihoods,
+            and a greener future.
+          </p>
+          <a href="donate">Start Today <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+
+      <section class="events" aria-labelledby="events-title">
+        <h2 id="events-title">Upcoming Events</h2>
+
+        <div class="wrapper">
+          <article class="card planting">
+            <a href="#">View</a>
+            <small>
+              <time datetime="2026-11-02">2<sup>nd</sup> Nov 2026</time>
+            </small>
+            <span>Planting Trees</span>
+          </article>
+
+          <article class="card hazard">
+            <a href="#">View</a>
+            <small>
+              <time datetime="2027-01-20">20<sup>th</sup> Jan 2027</time>
+            </small>
+            <span>Summit Conference</span>
+          </article>
+
+          <article class="card anivesa">
+            <a href="#">View</a>
+            <small>
+              <time datetime="2027-06-15">15<sup>th</sup> Jun 2027</time>
+            </small>
+            <span>HESO 5th Anniversary</span>
+          </article>
+        </div>
+      </section>
+
+      <div class="barge" aria-hidden="true">
+        <h3>Did you know?</h3>
+      </div>
+
+      <section class="fact" aria-labelledby="fact-title">
+        <div class="data">
+          <div class="lim">
+            <h2 id="fact-title" class="sr-only">Did you know?</h2>
+            <p>
+              Handwashing with soap is one of the simplest ways to prevent the
+              spread of disease?
+            </p>
+            <a href="#">Read more <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+
+        <div
+          class="image"
+          role="img"
+          aria-label="Handwashing and hygiene"
+        ></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-main">
+        <div class="footer-brand">
+          <a href="/" class="footer-logo">HESO</a>
+          <p>Better health, a greener future.</p>
+
+          <div class="footer-socials" aria-label="Social media">
+            <a href="#" aria-label="Facebook">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="#" aria-label="Instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="#" aria-label="X">
+              <i class="fa-brands fa-x-twitter"></i>
+            </a>
+            <a href="#" aria-label="LinkedIn">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+          </div>
+        </div>
+
+        <nav class="footer-column" aria-label="Explore">
+          <h3>Explore</h3>
+          <a href="/">Home</a>
+          <a href="health">Health</a>
+          <a href="environment">Environment</a>
+          <a href="events">Events</a>
+          <a href="about">About us</a>
+        </nav>
+
+        <nav class="footer-column" aria-label="Our work">
+          <h3>Our Work</h3>
+          <a href="#">Health Promotion</a>
+          <a href="#">Disease Prevention</a>
+          <a href="#">Water and Sanitation</a>
+          <a href="#">Sustainable Agriculture</a>
+          <a href="#">Climate Resilience</a>
+        </nav>
+
+        <div class="footer-column contact">
+          <h3>Get in touch</h3>
+          <a href="mailto:info@heso.or.tz">info@heso.or.tz</a>
+          <a href="tel:+255749907765">+255 749 907 765</a>
+          <p>Arusha, Tanzania</p>
+          <a class="footer-action" href="contact">
+            Contact us
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 HESO. All rights reserved.</p>
+
+        <nav aria-label="Legal">
+          <a href="privacy">Privacy</a>
+          <a href="terms">Terms</a>
+          <a href="legal">Legal</a>
+        </nav>
+
+        <p>
+          Powered by
+          <a href="https://bunifu.space">bunifu.space</a>
+        </p>
+      </div>
+    </footer>
+
+    <script src="script/app.js"></script>
+  </body>
+</html>

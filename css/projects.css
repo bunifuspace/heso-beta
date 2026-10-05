@@ -1,0 +1,557 @@
+.projects-page {
+  width: 100%;
+  overflow: hidden;
+  background: var(--color-white);
+}
+
+.projects-page img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.projects-page span {
+  color: var(--color-primary);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.projects-hero {
+  display: grid;
+  grid-template-columns: 1fr 0.9fr;
+  min-height: 650px;
+  overflow: hidden;
+  background: var(--color-surface-green);
+  border-radius: 0 0 18% 8% / 0 0 12% 5%;
+}
+
+.projects-hero-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: clamp(4rem, 8vw, 8rem);
+}
+
+.projects-hero-content h1 {
+  max-width: 850px;
+  margin: 1rem 0 1.5rem;
+  color: var(--color-heading);
+  font-family: var(--font-display);
+  font-size: clamp(3.5rem, 7vw, 7rem);
+  font-weight: 300;
+  line-height: 0.9;
+  letter-spacing: -0.07em;
+}
+
+.projects-hero-content p {
+  max-width: 580px;
+  margin: 0;
+  color: var(--color-text-soft);
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+.projects-intro {
+  display: grid;
+  grid-template-columns: 0.35fr 1fr;
+  gap: 4rem;
+  width: min(1200px, calc(100% - 2.5rem));
+  margin: auto;
+  padding: clamp(5rem, 10vw, 10rem) 0;
+}
+
+.projects-label {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.projects-label span:first-child {
+  opacity: 0.55;
+}
+
+.projects-intro-content h2,
+.projects-featured-heading h2,
+.projects-process-heading h2 {
+  max-width: 850px;
+  margin: 0;
+  color: var(--color-heading);
+  font-family: var(--font-display);
+  font-size: clamp(3rem, 5vw, 5rem);
+  font-weight: 300;
+  line-height: 0.95;
+  letter-spacing: -0.065em;
+}
+
+.projects-intro-content p {
+  max-width: 680px;
+  margin: 2rem 0 0;
+  color: var(--color-text-soft);
+  font-size: 0.95rem;
+  line-height: 1.85;
+}
+
+.projects-featured {
+  width: min(1200px, calc(100% - 2.5rem));
+  margin: auto;
+  padding-bottom: clamp(5rem, 10vw, 10rem);
+}
+
+.projects-featured-heading,
+.projects-process-heading {
+  display: grid;
+  grid-template-columns: 0.35fr 1fr;
+  gap: 4rem;
+  margin-bottom: 4rem;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 1.25rem;
+}
+
+.project-card {
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+  border-radius: 1.5rem;
+  background: var(--color-white);
+}
+
+.project-card-large {
+  grid-row: span 2;
+}
+
+.project-image {
+  height: 360px;
+  overflow: hidden;
+}
+
+.project-card-large .project-image {
+  height: 500px;
+}
+
+.project-image img {
+  transition: transform 1s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+.project-card:hover .project-image img {
+  transform: scale(1.025);
+}
+
+.project-content {
+  padding: 2rem;
+}
+
+.project-content h3 {
+  max-width: 550px;
+  margin: 0.8rem 0 1rem;
+  color: var(--color-heading);
+  font-family: var(--font-display);
+  font-size: 2.2rem;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: -0.05em;
+}
+
+.project-content p {
+  max-width: 560px;
+  margin: 0;
+  color: var(--color-text-soft);
+  font-size: 0.82rem;
+  line-height: 1.75;
+}
+
+.project-content a,
+.projects-wide-content a,
+.projects-climate-content a,
+.projects-livelihoods-content a,
+.projects-partnership-content a,
+.projects-cta a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  margin-top: 1.5rem;
+  color: var(--color-heading);
+  font-size: 0.8rem;
+  font-weight: 650;
+  text-decoration: none;
+  transition: color var(--transition-base);
+}
+
+.project-content a:hover,
+.projects-wide-content a:hover,
+.projects-climate-content a:hover,
+.projects-livelihoods-content a:hover,
+.projects-partnership-content a:hover {
+  color: var(--color-primary);
+}
+
+.projects-wide,
+.projects-climate,
+.projects-livelihoods,
+.projects-partnership {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 700px;
+}
+
+.projects-wide {
+  background: var(--color-surface-green);
+}
+
+.projects-wide-image,
+.projects-climate-image,
+.projects-livelihoods-image,
+.projects-partnership-image {
+  min-height: 700px;
+}
+
+.projects-wide-content,
+.projects-climate-content,
+.projects-livelihoods-content,
+.projects-partnership-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: clamp(4rem, 8vw, 8rem);
+}
+
+.projects-wide-content h2,
+.projects-climate-content h2,
+.projects-livelihoods-content h2,
+.projects-partnership-content h2 {
+  max-width: 700px;
+  margin: 1rem 0 1.5rem;
+  color: var(--color-heading);
+  font-family: var(--font-display);
+  font-size: clamp(3rem, 5vw, 5.2rem);
+  font-weight: 300;
+  line-height: 0.94;
+  letter-spacing: -0.065em;
+}
+
+.projects-wide-content p,
+.projects-climate-content p,
+.projects-livelihoods-content p,
+.projects-partnership-content p {
+  max-width: 570px;
+  margin: 0;
+  color: var(--color-text-soft);
+  font-size: 0.9rem;
+  line-height: 1.8;
+}
+
+.projects-climate {
+  background: var(--color-white);
+}
+
+.projects-climate-content {
+  order: 1;
+}
+
+.projects-climate-image {
+  order: 2;
+}
+
+.projects-livelihoods {
+  background: var(--color-surface-green);
+}
+
+.projects-livelihoods-image {
+  order: 1;
+}
+
+.projects-livelihoods-content {
+  order: 2;
+}
+
+.projects-process {
+  width: min(1200px, calc(100% - 2.5rem));
+  margin: auto;
+  padding: clamp(5rem, 10vw, 10rem) 0;
+}
+
+.projects-process-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border-top: 1px solid var(--color-border);
+}
+
+.projects-process-grid article {
+  min-height: 250px;
+  padding: 2rem;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.projects-process-grid article:not(:last-child) {
+  border-right: 1px solid var(--color-border);
+}
+
+.projects-process-grid article > span {
+  opacity: 0.6;
+}
+
+.projects-process-grid h3 {
+  margin: 2rem 0 0.8rem;
+  color: var(--color-heading);
+  font-family: var(--font-display);
+  font-size: 1.8rem;
+  font-weight: 400;
+  letter-spacing: -0.04em;
+}
+
+.projects-process-grid p {
+  margin: 0;
+  color: var(--color-text-soft);
+  font-size: 0.8rem;
+  line-height: 1.75;
+}
+
+.projects-partnership {
+  background: var(--color-surface-green);
+}
+
+.projects-partnership-content {
+  order: 1;
+}
+
+.projects-partnership-image {
+  order: 2;
+}
+
+.projects-cta {
+  padding: clamp(5rem, 10vw, 10rem) 1.25rem;
+  background: var(--color-primary);
+  border-radius: 0 0 18% 8% / 0 0 12% 5%;
+}
+
+.projects-cta > div {
+  width: min(850px, 100%);
+  margin: auto;
+  text-align: center;
+}
+
+.projects-cta span {
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.projects-cta h2 {
+  margin: 1rem 0 1.5rem;
+  color: var(--color-accent-light);
+  font-family: var(--font-display);
+  font-size: clamp(3rem, 6vw, 6rem);
+  font-weight: 300;
+  line-height: 0.9;
+  letter-spacing: -0.07em;
+}
+
+.projects-cta p {
+  max-width: 600px;
+  margin: auto;
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 0.9rem;
+  line-height: 1.8;
+}
+
+.projects-cta a {
+  margin-top: 2rem;
+  padding: 0.9rem 1.25rem;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: var(--radius-full);
+  color: var(--color-accent-light);
+}
+
+.projects-cta a:hover {
+  background: var(--color-accent-light);
+  color: var(--color-primary);
+}
+
+@media (max-width: 1000px) {
+  .projects-process-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .projects-process-grid article:nth-child(2) {
+    border-right: 0;
+  }
+}
+
+@media (max-width: 900px) {
+  .projects-hero,
+  .projects-wide,
+  .projects-climate,
+  .projects-livelihoods,
+  .projects-partnership {
+    grid-template-columns: 1fr;
+  }
+
+  .projects-hero-content {
+    min-height: 540px;
+    padding: 4rem 1.5rem;
+  }
+
+  .projects-hero-image {
+    min-height: 420px;
+  }
+
+  .projects-intro,
+  .projects-featured-heading,
+  .projects-process-heading {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .project-card-large {
+    grid-row: auto;
+  }
+
+  .project-card-large .project-image,
+  .project-image {
+    height: 420px;
+  }
+
+  .projects-wide-image,
+  .projects-climate-image,
+  .projects-livelihoods-image,
+  .projects-partnership-image {
+    min-height: 480px;
+  }
+
+  .projects-wide-content,
+  .projects-climate-content,
+  .projects-livelihoods-content,
+  .projects-partnership-content {
+    padding: 5rem 1.5rem;
+  }
+
+  .projects-climate-content {
+    order: 2;
+  }
+
+  .projects-climate-image {
+    order: 1;
+  }
+
+  .projects-livelihoods-content {
+    order: 2;
+  }
+
+  .projects-livelihoods-image {
+    order: 1;
+  }
+}
+
+@media (max-width: 600px) {
+  .projects-hero {
+    border-radius: 0 0 15% 5% / 0 0 7% 3%;
+  }
+
+  .projects-hero-content {
+    min-height: 500px;
+    padding: 3rem 1.25rem 4rem;
+  }
+
+  .projects-hero-content h1 {
+    font-size: clamp(3.2rem, 14vw, 4.5rem);
+  }
+
+  .projects-hero-image {
+    min-height: 320px;
+  }
+
+  .projects-intro,
+  .projects-featured,
+  .projects-process {
+    width: calc(100% - 2.5rem);
+  }
+
+  .projects-intro,
+  .projects-featured,
+  .projects-process {
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+  }
+
+  .projects-intro-content h2,
+  .projects-featured-heading h2,
+  .projects-wide-content h2,
+  .projects-climate-content h2,
+  .projects-livelihoods-content h2,
+  .projects-process-heading h2,
+  .projects-partnership-content h2 {
+    font-size: 2.8rem;
+  }
+
+  .project-card {
+    border-radius: 1.25rem;
+  }
+
+  .project-card-large .project-image,
+  .project-image {
+    height: 300px;
+  }
+
+  .project-content {
+    padding: 1.5rem;
+  }
+
+  .project-content h3 {
+    font-size: 2rem;
+  }
+
+  .projects-wide-image,
+  .projects-climate-image,
+  .projects-livelihoods-image,
+  .projects-partnership-image {
+    min-height: 320px;
+  }
+
+  .projects-wide-content,
+  .projects-climate-content,
+  .projects-livelihoods-content,
+  .projects-partnership-content {
+    padding: 4.5rem 1.25rem;
+  }
+
+  .projects-process-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .projects-process-grid article {
+    min-height: auto;
+    padding: 1.75rem 0;
+  }
+
+  .projects-process-grid article:not(:last-child) {
+    border-right: 0;
+  }
+
+  .projects-cta {
+    padding: 4.5rem 1.25rem;
+    border-radius: 0 0 15% 5% / 0 0 7% 3%;
+  }
+
+  .projects-cta h2 {
+    font-size: 3rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .project-image img,
+  .project-content a,
+  .projects-wide-content a,
+  .projects-climate-content a,
+  .projects-livelihoods-content a,
+  .projects-partnership-content a,
+  .projects-cta a {
+    transition: none;
+  }
+}

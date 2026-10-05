@@ -1,0 +1,518 @@
+.application-page {
+  width: 100%;
+  overflow: hidden;
+  background: var(--color-white);
+}
+
+.application-page img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.application-page span {
+  color: var(--color-primary);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.application-hero {
+  display: grid;
+  grid-template-columns: 1fr 0.9fr;
+  min-height: 620px;
+  overflow: hidden;
+  background: var(--color-surface-green);
+  border-radius: 0 0 18% 8% / 0 0 12% 5%;
+}
+
+.application-hero-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: clamp(4rem, 8vw, 8rem);
+}
+
+.application-hero-content h1 {
+  max-width: 750px;
+  margin: 1rem 0 0;
+  color: var(--color-heading);
+  font-family: var(--font-display);
+  font-size: clamp(3.5rem, 7vw, 7rem);
+  font-weight: 300;
+  line-height: 0.9;
+  letter-spacing: -0.07em;
+}
+
+.application-hero-content p {
+  max-width: 520px;
+  margin: 2rem 0 0;
+  color: var(--color-text-soft);
+  font-size: 1rem;
+  line-height: 1.75;
+}
+
+.application-hero-image {
+  min-height: 620px;
+}
+
+.application-section {
+  width: min(1050px, calc(100% - 2.5rem));
+  margin: auto;
+  padding: clamp(5rem, 9vw, 9rem) 0;
+}
+
+.application-intro {
+  max-width: 700px;
+  margin-bottom: 5rem;
+}
+
+.application-intro h2 {
+  margin: 1rem 0 1.25rem;
+  color: var(--color-heading);
+  font-family: var(--font-display);
+  font-size: clamp(2.5rem, 4.5vw, 4.5rem);
+  font-weight: 300;
+  line-height: 0.98;
+  letter-spacing: -0.06em;
+}
+
+.application-intro p {
+  max-width: 580px;
+  margin: 0;
+  color: var(--color-text-soft);
+  line-height: 1.75;
+}
+
+.application-form {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.form-section {
+  padding-top: 2rem;
+  border-top: 1px solid var(--color-border);
+}
+
+.form-section-heading {
+  display: grid;
+  grid-template-columns: 55px 1fr;
+  gap: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.form-section-heading > span {
+  padding-top: 0.25rem;
+}
+
+.form-section-heading h3 {
+  margin: 0;
+  color: var(--color-heading);
+  font-family: var(--font-display);
+  font-size: 1.8rem;
+  font-weight: 400;
+  letter-spacing: -0.035em;
+}
+
+.form-section-heading p {
+  margin: 0.5rem 0 0;
+  color: var(--color-text-soft);
+  font-size: 0.85rem;
+  line-height: 1.6;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+}
+
+.application-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+
+.application-form label > span {
+  color: var(--color-heading);
+  font-size: 0.72rem;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.application-form input,
+.application-form textarea,
+.application-form select {
+  width: 100%;
+  padding: 1rem 1.05rem;
+  border: 1px solid var(--color-border);
+  border-radius: 0.75rem;
+  outline: none;
+  background: var(--color-surface-alt);
+  color: var(--color-heading);
+  font: inherit;
+  font-size: 0.9rem;
+  transition:
+    border-color var(--transition-base),
+    background var(--transition-base),
+    box-shadow var(--transition-base);
+}
+
+.application-form textarea {
+  resize: vertical;
+  line-height: 1.6;
+}
+
+.application-form input::placeholder,
+.application-form textarea::placeholder {
+  color: var(--color-text-soft);
+  opacity: 0.65;
+}
+
+.application-form input:focus,
+.application-form textarea:focus,
+.application-form select:focus {
+  border-color: var(--color-primary);
+  background: var(--color-white);
+  box-shadow: 0 0 0 3px rgba(0, 79, 42, 0.08);
+}
+
+.full {
+  grid-column: 1 / -1;
+}
+
+.application-options {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.75rem;
+}
+
+.application-option {
+  position: relative;
+  display: block !important;
+  cursor: pointer;
+}
+
+.application-option input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
+
+.application-option > span {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  min-height: 125px;
+  padding: 1.4rem;
+  border: 1px solid var(--color-border);
+  border-radius: 1rem;
+  background: var(--color-surface-alt);
+  transition:
+    border-color var(--transition-base),
+    background var(--transition-base),
+    transform var(--transition-base);
+}
+
+.application-option strong {
+  color: var(--color-heading);
+  font-size: 1rem;
+}
+
+.application-option small {
+  color: var(--color-text-soft);
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+
+.application-option input:checked + span {
+  border-color: var(--color-primary);
+  background: var(--color-surface-green);
+}
+
+.application-option:hover > span {
+  transform: translateY(-2px);
+}
+
+.interest-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.75rem;
+}
+
+.interest-grid label {
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem;
+  border: 1px solid var(--color-border);
+  border-radius: 0.75rem;
+  background: var(--color-surface-alt);
+  cursor: pointer;
+  transition:
+    border-color var(--transition-base),
+    background var(--transition-base);
+}
+
+.interest-grid label:hover {
+  border-color: var(--color-primary);
+}
+
+.interest-grid input {
+  width: 1rem;
+  height: 1rem;
+  margin: 0;
+  accent-color: var(--color-primary);
+}
+
+.interest-grid label > span {
+  color: var(--color-heading);
+  font-size: 0.82rem;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.application-submit {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--color-border);
+}
+
+.consent {
+  max-width: 650px;
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: flex-start;
+  gap: 0.7rem !important;
+}
+
+.consent input {
+  flex: 0 0 auto;
+  width: 1rem;
+  height: 1rem;
+  margin-top: 0.2rem;
+  accent-color: var(--color-primary);
+}
+
+.consent span {
+  color: var(--color-text-soft) !important;
+  font-size: 0.75rem !important;
+  line-height: 1.6;
+  letter-spacing: 0 !important;
+  text-transform: none !important;
+}
+
+.application-submit button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  flex: 0 0 auto;
+  padding: 0.9rem 1.4rem;
+  border: 0;
+  border-radius: var(--radius-full);
+  background: var(--color-primary);
+  color: var(--color-accent-light);
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition:
+    background var(--transition-base),
+    transform var(--transition-base);
+}
+
+.application-submit button:hover {
+  background: var(--color-primary-deep);
+  transform: translateY(-2px);
+}
+
+.application-note {
+  width: 100%;
+  padding: clamp(5rem, 9vw, 9rem) 1.25rem;
+  background: var(--color-primary);
+  color: var(--color-accent-light);
+  border-radius: 0 0 18% 8% / 0 0 12% 5%;
+}
+
+.application-note > div {
+  width: min(800px, 100%);
+  margin: auto;
+  text-align: center;
+}
+
+.application-note > div > span {
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.application-note h2 {
+  margin: 1rem 0 0;
+  color: var(--color-accent-light);
+  font-family: var(--font-display);
+  font-size: clamp(3rem, 6vw, 6rem);
+  font-weight: 300;
+  line-height: 0.95;
+  letter-spacing: -0.065em;
+}
+
+.application-note p {
+  max-width: 550px;
+  margin: 1.5rem auto 0;
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 1.7;
+}
+
+.application-note > div > div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 2rem;
+}
+
+.application-note a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  padding: 0.8rem 1.2rem;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: var(--radius-full);
+  color: var(--color-accent-light);
+  font-size: 0.82rem;
+  text-decoration: none;
+  transition:
+    background var(--transition-base),
+    color var(--transition-base),
+    transform var(--transition-base);
+}
+
+.application-note a:hover {
+  background: var(--color-accent-light);
+  color: var(--color-primary);
+  transform: translateY(-2px);
+}
+
+@media (max-width: 800px) {
+  .application-hero {
+    grid-template-columns: 1fr;
+  }
+
+  .application-hero-content {
+    min-height: 500px;
+    padding: 4rem 1.5rem;
+  }
+
+  .application-hero-image {
+    min-height: 400px;
+  }
+
+  .application-options,
+  .interest-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .application-submit {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .application-submit button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .application-hero {
+    border-radius: 0 0 15% 5% / 0 0 7% 3%;
+  }
+
+  .application-hero-content {
+    min-height: 550px;
+    padding: 3rem 1.25rem 4rem;
+  }
+
+  .application-hero-content h1 {
+    font-size: clamp(3.2rem, 14vw, 4.5rem);
+  }
+
+  .application-hero-image {
+    min-height: 320px;
+  }
+
+  .application-section {
+    width: calc(100% - 2.5rem);
+    padding: 4.5rem 0;
+  }
+
+  .application-intro {
+    margin-bottom: 4rem;
+  }
+
+  .application-intro h2 {
+    font-size: 2.7rem;
+  }
+
+  .application-form {
+    gap: 4rem;
+  }
+
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .full {
+    grid-column: auto;
+  }
+
+  .form-section-heading {
+    grid-template-columns: 40px 1fr;
+  }
+
+  .form-section-heading h3 {
+    font-size: 1.5rem;
+  }
+
+  .application-note {
+    padding: 4.5rem 1.25rem;
+    border-radius: 0 0 15% 5% / 0 0 7% 3%;
+  }
+
+  .application-note h2 {
+    font-size: 3rem;
+  }
+
+  .application-note > div > div {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .application-note a {
+    justify-content: center;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .application-form input,
+  .application-form textarea,
+  .application-form select,
+  .application-option > span,
+  .interest-grid label,
+  .application-submit button,
+  .application-note a {
+    transition: none;
+  }
+
+  .application-option:hover > span,
+  .application-submit button:hover,
+  .application-note a:hover {
+    transform: none;
+  }
+}
