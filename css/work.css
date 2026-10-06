@@ -43,7 +43,6 @@
   font-size: clamp(3.5rem, 7vw, 7rem);
   font-weight: 300;
   line-height: 0.9;
-  letter-spacing: -0.07em;
 }
 
 .work-hero-content p {
@@ -86,7 +85,6 @@
   font-size: clamp(3rem, 5vw, 5rem);
   font-weight: 300;
   line-height: 0.95;
-  letter-spacing: -0.065em;
 }
 
 .work-intro-content p {
@@ -151,7 +149,6 @@
   font-size: clamp(3.5rem, 6vw, 6rem);
   font-weight: 300;
   line-height: 0.9;
-  letter-spacing: -0.07em;
 }
 
 .work-card-content p {
@@ -209,7 +206,6 @@
   font-size: clamp(3rem, 5vw, 5.2rem);
   font-weight: 300;
   line-height: 0.94;
-  letter-spacing: -0.065em;
 }
 
 .work-focus-content p {
@@ -286,7 +282,6 @@
   font-size: 2rem;
   font-weight: 400;
   line-height: 1;
-  letter-spacing: -0.045em;
 }
 
 .work-areas-grid b {
@@ -311,7 +306,7 @@
 .work-cta > div {
   width: min(850px, 100%);
   margin: auto;
-  text-align: center;
+  text-align: left;
 }
 
 .work-cta span {
@@ -325,7 +320,6 @@
   font-size: clamp(3rem, 6vw, 6rem);
   font-weight: 300;
   line-height: 0.9;
-  letter-spacing: -0.07em;
 }
 
 .work-cta p {

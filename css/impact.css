@@ -43,7 +43,6 @@
   font-size: clamp(3.5rem, 7vw, 7rem);
   font-weight: 300;
   line-height: 0.9;
-  letter-spacing: -0.07em;
 }
 
 .impact-hero-content p {
@@ -87,7 +86,6 @@
   font-size: clamp(3rem, 5vw, 5rem);
   font-weight: 300;
   line-height: 0.95;
-  letter-spacing: -0.065em;
 }
 
 .impact-intro-content p {
@@ -135,7 +133,6 @@
   font-size: clamp(3.5rem, 6vw, 6rem);
   font-weight: 300;
   line-height: 0.9;
-  letter-spacing: -0.06em;
 }
 
 .impact-numbers-grid span {
@@ -202,7 +199,6 @@
   font-size: clamp(3rem, 5vw, 5.2rem);
   font-weight: 300;
   line-height: 0.94;
-  letter-spacing: -0.065em;
 }
 
 .impact-health-content p,
@@ -321,7 +317,6 @@
   font-size: 1.9rem;
   font-weight: 400;
   line-height: 1;
-  letter-spacing: -0.05em;
 }
 
 .impact-story-content a {
@@ -356,7 +351,7 @@
 .impact-cta > div {
   width: min(850px, 100%);
   margin: auto;
-  text-align: center;
+  text-align: left;
 }
 
 .impact-cta span {
@@ -370,7 +365,6 @@
   font-size: clamp(3rem, 6vw, 6rem);
   font-weight: 300;
   line-height: 0.9;
-  letter-spacing: -0.07em;
 }
 
 .impact-cta p {

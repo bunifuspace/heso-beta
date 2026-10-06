@@ -33,7 +33,6 @@
   font-size: clamp(3.5rem, 7vw, 7rem);
   font-weight: 300;
   line-height: 0.9;
-  letter-spacing: -0.07em;
 }
 
 .legal-hero p {
@@ -105,7 +104,6 @@
   font-size: clamp(2rem, 3vw, 3rem);
   font-weight: 400;
   line-height: 1;
-  letter-spacing: -0.05em;
 }
 
 .legal-article p {
@@ -153,7 +151,6 @@
   font-size: clamp(3rem, 6vw, 6rem);
   font-weight: 300;
   line-height: 0.9;
-  letter-spacing: -0.07em;
 }
 
 .legal-footer-cta p {

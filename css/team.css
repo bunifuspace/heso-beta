@@ -43,7 +43,6 @@
   font-size: clamp(3.5rem, 7vw, 7rem);
   font-weight: 300;
   line-height: 0.9;
-  letter-spacing: -0.07em;
 }
 
 .team-hero-content p {
@@ -88,7 +87,6 @@
   font-size: clamp(2.8rem, 5vw, 5rem);
   font-weight: 300;
   line-height: 0.96;
-  letter-spacing: -0.065em;
 }
 
 .team-intro-content p {
@@ -117,7 +115,6 @@
   font-size: clamp(2.8rem, 5vw, 5rem);
   font-weight: 300;
   line-height: 0.95;
-  letter-spacing: -0.065em;
 }
 
 .team-grid {
@@ -161,7 +158,6 @@
   font-family: var(--font-display);
   font-size: 1.65rem;
   font-weight: 400;
-  letter-spacing: -0.04em;
 }
 
 .team-card-content p {
@@ -196,7 +192,6 @@
   font-size: clamp(2.8rem, 5vw, 5rem);
   font-weight: 300;
   line-height: 0.95;
-  letter-spacing: -0.065em;
 }
 
 .team-values-content p {
@@ -217,7 +212,7 @@
 .team-join > div {
   width: min(850px, 100%);
   margin: auto;
-  text-align: center;
+  text-align: left;
 }
 
 .team-join > div > span {
@@ -231,7 +226,6 @@
   font-size: clamp(3rem, 6vw, 6rem);
   font-weight: 300;
   line-height: 0.95;
-  letter-spacing: -0.065em;
 }
 
 .team-join p {

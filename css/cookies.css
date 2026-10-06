@@ -43,7 +43,6 @@
   font-size: clamp(3.5rem, 7vw, 6.5rem);
   font-weight: 300;
   line-height: 0.9;
-  letter-spacing: -0.07em;
 }
 
 .cookies-hero-content p {
@@ -90,7 +89,6 @@
   font-size: clamp(2.6rem, 5vw, 4.5rem);
   font-weight: 300;
   line-height: 0.95;
-  letter-spacing: -0.065em;
 }
 
 .cookies-section > p {
@@ -162,7 +160,6 @@
   font-size: clamp(2.8rem, 5vw, 4.5rem);
   font-weight: 300;
   line-height: 0.95;
-  letter-spacing: -0.065em;
 }
 
 .cookies-contact > p {

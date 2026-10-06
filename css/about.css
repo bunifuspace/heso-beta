@@ -12,6 +12,7 @@
   letter-spacing: 0.14em;
   line-height: 1.4;
   text-transform: uppercase;
+  display: none;
 }
 
 .about-hero {
@@ -23,7 +24,7 @@
   overflow: hidden;
   background:
     linear-gradient(120deg, rgba(0, 79, 42, 0.97), rgba(0, 79, 42, 0.8)),
-    url("/uploads/noah-buscher-x8ZStukS2PM-unsplash.jpg") center/cover;
+    url("/uploads/raouf-belfaci-uIDAGs2lUd0-unsplash.jpg") center/cover;
   border-radius: 0 0 18% 8% / 0 0 12% 5%;
 }
 
@@ -35,6 +36,7 @@
 
 .about-hero .eyebrow {
   color: rgba(255, 255, 255, 0.7);
+  display: none;
 }
 
 .about-hero h1 {
@@ -45,7 +47,6 @@
   font-size: clamp(3.2rem, 7vw, 7rem);
   font-weight: 300;
   line-height: 0.94;
-  letter-spacing: -0.065em;
 }
 
 .about-hero .hero-intro {
@@ -109,7 +110,6 @@
   font-size: clamp(2.5rem, 5vw, 5rem);
   font-weight: 300;
   line-height: 0.98;
-  letter-spacing: -0.06em;
 }
 
 .introduction-copy {
@@ -158,6 +158,7 @@
 
 .commitment-content .eyebrow {
   color: rgba(255, 255, 255, 0.65);
+  display: none;
 }
 
 .commitment-content h2 {
@@ -168,7 +169,6 @@
   font-size: clamp(2.3rem, 4vw, 4.5rem);
   font-weight: 300;
   line-height: 1;
-  letter-spacing: -0.055em;
 }
 
 .commitment-content p:not(.eyebrow) {
@@ -177,6 +177,7 @@
   color: rgba(255, 255, 255, 0.78);
   font-size: 0.98rem;
   line-height: 1.75;
+  display: none;
 }
 
 .values-section {
@@ -196,7 +197,6 @@
   font-size: clamp(2.7rem, 5vw, 5rem);
   font-weight: 300;
   line-height: 0.98;
-  letter-spacing: -0.06em;
 }
 
 .values-grid {
@@ -288,7 +288,6 @@
   font-size: clamp(1.4rem, 2.3vw, 2rem);
   font-weight: 400;
   line-height: 1.2;
-  letter-spacing: -0.025em;
 }
 
 .objective p {
@@ -333,7 +332,6 @@
   font-size: clamp(1.5rem, 2.5vw, 2.4rem);
   font-weight: 300;
   line-height: 1.3;
-  letter-spacing: -0.035em;
 }
 
 .vision-mission {
@@ -378,7 +376,6 @@
   font-size: clamp(2rem, 3.4vw, 3.6rem);
   font-weight: 300;
   line-height: 1.05;
-  letter-spacing: -0.05em;
 }
 
 .vision-card h2 {
@@ -415,11 +412,12 @@
 .cta-content {
   width: min(900px, 100%);
   margin: auto;
-  text-align: center;
+  text-align: left;
 }
 
 .about-cta .eyebrow {
   color: rgba(255, 255, 255, 0.65);
+  display: none;
 }
 
 .about-cta h2 {
@@ -429,7 +427,6 @@
   font-size: clamp(3rem, 6vw, 6rem);
   font-weight: 300;
   line-height: 0.95;
-  letter-spacing: -0.065em;
 }
 
 .about-cta p:not(.eyebrow) {
@@ -437,6 +434,7 @@
   margin: 1.5rem auto 0;
   color: rgba(255, 255, 255, 0.72);
   line-height: 1.7;
+  display: none;
 }
 
 .cta-actions {

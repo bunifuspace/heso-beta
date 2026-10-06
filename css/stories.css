@@ -43,7 +43,6 @@
   font-size: clamp(3.5rem, 7vw, 7rem);
   font-weight: 300;
   line-height: 0.9;
-  letter-spacing: -0.07em;
 }
 
 .stories-hero-content p {
@@ -112,7 +111,6 @@
   font-size: clamp(3rem, 5vw, 5rem);
   font-weight: 300;
   line-height: 0.94;
-  letter-spacing: -0.065em;
 }
 
 .featured-story-content p {
@@ -170,7 +168,6 @@
   font-size: clamp(3rem, 5vw, 5rem);
   font-weight: 300;
   line-height: 0.95;
-  letter-spacing: -0.065em;
 }
 
 .stories-grid {
@@ -210,7 +207,6 @@
   font-size: 1.9rem;
   font-weight: 400;
   line-height: 1;
-  letter-spacing: -0.05em;
 }
 
 .story-card-content p {
@@ -246,7 +242,6 @@
   font-size: clamp(3rem, 5vw, 5.2rem);
   font-weight: 300;
   line-height: 0.94;
-  letter-spacing: -0.065em;
 }
 
 .stories-voices-content p {
@@ -315,7 +310,6 @@
   font-family: var(--font-display);
   font-size: 1.7rem;
   font-weight: 400;
-  letter-spacing: -0.04em;
 }
 
 .stories-updates-list article > a {
@@ -332,7 +326,7 @@
 .stories-cta > div {
   width: min(850px, 100%);
   margin: auto;
-  text-align: center;
+  text-align: left;
 }
 
 .stories-cta span {
@@ -346,7 +340,6 @@
   font-size: clamp(3rem, 6vw, 6rem);
   font-weight: 300;
   line-height: 0.9;
-  letter-spacing: -0.07em;
 }
 
 .stories-cta p {

@@ -43,7 +43,6 @@
   font-size: clamp(3.5rem, 7vw, 7rem);
   font-weight: 300;
   line-height: 0.9;
-  letter-spacing: -0.07em;
 }
 
 .knowledge-hero-content p {
@@ -86,7 +85,6 @@
   font-size: clamp(3rem, 5vw, 5rem);
   font-weight: 300;
   line-height: 0.95;
-  letter-spacing: -0.065em;
 }
 
 .knowledge-intro-content p {
@@ -131,7 +129,6 @@
   font-family: var(--font-display);
   font-size: 2rem;
   font-weight: 300;
-  letter-spacing: -0.05em;
 }
 
 .knowledge-link-content h2 {
@@ -140,7 +137,6 @@
   font-size: clamp(2.5rem, 5vw, 4.5rem);
   font-weight: 300;
   line-height: 0.9;
-  letter-spacing: -0.06em;
 }
 
 .knowledge-link-content p {
@@ -188,7 +184,6 @@
   font-size: clamp(3rem, 5vw, 5rem);
   font-weight: 300;
   line-height: 0.94;
-  letter-spacing: -0.065em;
 }
 
 .knowledge-feature-content p {
@@ -264,7 +259,6 @@
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 1;
-  letter-spacing: -0.04em;
 }
 
 .knowledge-topics-grid b {
@@ -283,7 +277,7 @@
 .knowledge-cta > div {
   width: min(850px, 100%);
   margin: auto;
-  text-align: center;
+  text-align: left;
 }
 
 .knowledge-cta span {
@@ -297,7 +291,6 @@
   font-size: clamp(3rem, 6vw, 6rem);
   font-weight: 300;
   line-height: 0.9;
-  letter-spacing: -0.07em;
 }
 
 .knowledge-cta p {

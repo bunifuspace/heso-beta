@@ -43,7 +43,6 @@
   font-size: clamp(3.5rem, 7vw, 7rem);
   font-weight: 300;
   line-height: 0.9;
-  letter-spacing: -0.07em;
 }
 
 .application-hero-content p {
@@ -76,7 +75,6 @@
   font-size: clamp(2.5rem, 4.5vw, 4.5rem);
   font-weight: 300;
   line-height: 0.98;
-  letter-spacing: -0.06em;
 }
 
 .application-intro p {
@@ -114,7 +112,6 @@
   font-family: var(--font-display);
   font-size: 1.8rem;
   font-weight: 400;
-  letter-spacing: -0.035em;
 }
 
 .form-section-heading p {
@@ -360,7 +357,6 @@
   font-size: clamp(3rem, 6vw, 6rem);
   font-weight: 300;
   line-height: 0.95;
-  letter-spacing: -0.065em;
 }
 
 .application-note p {

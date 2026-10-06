@@ -43,7 +43,6 @@
   font-size: clamp(3.5rem, 7vw, 7rem);
   font-weight: 300;
   line-height: 0.9;
-  letter-spacing: -0.07em;
 }
 
 .events-hero-content p {
@@ -81,7 +80,6 @@
   font-size: clamp(3rem, 5vw, 5rem);
   font-weight: 300;
   line-height: 0.95;
-  letter-spacing: -0.065em;
 }
 
 .events-list {
@@ -115,7 +113,6 @@
   font-size: 3.5rem;
   font-weight: 300;
   line-height: 0.9;
-  letter-spacing: -0.06em;
 }
 
 .event-date span {
@@ -152,7 +149,6 @@
   font-size: clamp(2rem, 3vw, 3rem);
   font-weight: 400;
   line-height: 0.98;
-  letter-spacing: -0.05em;
 }
 
 .event-content p {
@@ -211,7 +207,6 @@
   font-size: clamp(3rem, 5vw, 5.2rem);
   font-weight: 300;
   line-height: 0.94;
-  letter-spacing: -0.065em;
 }
 
 .events-featured-content p {
@@ -268,7 +263,6 @@
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 1;
-  letter-spacing: -0.04em;
 }
 
 .events-category-grid p {
@@ -314,7 +308,6 @@
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 1;
-  letter-spacing: -0.04em;
 }
 
 .events-past-grid p {
@@ -333,7 +326,7 @@
 .events-cta > div {
   width: min(850px, 100%);
   margin: auto;
-  text-align: center;
+  text-align: left;
 }
 
 .events-cta span {
@@ -347,7 +340,6 @@
   font-size: clamp(3rem, 6vw, 6rem);
   font-weight: 300;
   line-height: 0.9;
-  letter-spacing: -0.07em;
 }
 
 .events-cta p {

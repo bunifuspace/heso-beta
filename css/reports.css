@@ -43,7 +43,6 @@
   font-size: clamp(3.5rem, 7vw, 7rem);
   font-weight: 300;
   line-height: 0.9;
-  letter-spacing: -0.07em;
 }
 
 .reports-hero-content p {
@@ -86,7 +85,6 @@
   font-size: clamp(3rem, 5vw, 5rem);
   font-weight: 300;
   line-height: 0.95;
-  letter-spacing: -0.065em;
 }
 
 .reports-intro-content p {
@@ -118,7 +116,6 @@
   font-size: clamp(3rem, 5vw, 5rem);
   font-weight: 300;
   line-height: 0.9;
-  letter-spacing: -0.065em;
 }
 
 .reports-library-heading p {
@@ -148,7 +145,6 @@
   font-family: var(--font-display);
   font-size: 2.5rem;
   font-weight: 300;
-  letter-spacing: -0.05em;
 }
 
 .report-info h3 {
@@ -158,7 +154,6 @@
   font-size: clamp(1.8rem, 3vw, 2.5rem);
   font-weight: 400;
   line-height: 1;
-  letter-spacing: -0.045em;
 }
 
 .report-info p {
@@ -227,7 +222,6 @@
   font-size: clamp(3rem, 5vw, 5rem);
   font-weight: 300;
   line-height: 0.94;
-  letter-spacing: -0.065em;
 }
 
 .reports-feature-content p {
@@ -303,7 +297,6 @@
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 1;
-  letter-spacing: -0.04em;
 }
 
 .reports-topics-grid b {
@@ -322,7 +315,7 @@
 .reports-cta > div {
   width: min(850px, 100%);
   margin: auto;
-  text-align: center;
+  text-align: left;
 }
 
 .reports-cta span {
@@ -336,7 +329,6 @@
   font-size: clamp(3rem, 6vw, 6rem);
   font-weight: 300;
   line-height: 0.9;
-  letter-spacing: -0.07em;
 }
 
 .reports-cta p {

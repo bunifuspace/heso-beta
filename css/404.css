@@ -33,7 +33,7 @@
   font-size: clamp(12rem, 28vw, 30rem);
   font-weight: 300;
   line-height: 0.7;
-  letter-spacing: -0.12em;
+
   opacity: 0.14;
 }
 
@@ -56,7 +56,6 @@
   font-size: clamp(4rem, 8vw, 8rem);
   font-weight: 300;
   line-height: 0.82;
-  letter-spacing: -0.08em;
 }
 
 .error-copy p {
@@ -132,7 +131,6 @@
   font-size: clamp(3.5rem, 6vw, 6rem);
   font-weight: 300;
   line-height: 0.88;
-  letter-spacing: -0.07em;
 }
 
 .error-links {
@@ -181,7 +179,6 @@
   font-family: var(--font-display);
   font-size: 1.4rem;
   font-weight: 400;
-  letter-spacing: -0.035em;
 }
 
 .error-links i {
@@ -213,7 +210,6 @@
   font-size: clamp(2.5rem, 5vw, 5rem);
   font-weight: 300;
   line-height: 0.95;
-  letter-spacing: -0.06em;
 }
 
 @media (max-width: 800px) {

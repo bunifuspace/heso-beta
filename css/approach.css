@@ -43,7 +43,6 @@
   font-size: clamp(3.5rem, 7vw, 7rem);
   font-weight: 300;
   line-height: 0.9;
-  letter-spacing: -0.07em;
 }
 
 .approach-hero-content p {
@@ -89,7 +88,6 @@
   font-size: clamp(3rem, 5vw, 5rem);
   font-weight: 300;
   line-height: 0.95;
-  letter-spacing: -0.065em;
 }
 
 .approach-intro-content p {
@@ -121,7 +119,6 @@
   font-size: clamp(3rem, 5vw, 5rem);
   font-weight: 300;
   line-height: 0.95;
-  letter-spacing: -0.065em;
 }
 
 .approach-process-grid {
@@ -154,7 +151,6 @@
   font-size: 2.5rem;
   font-weight: 400;
   line-height: 1;
-  letter-spacing: -0.05em;
 }
 
 .approach-process-grid p {
@@ -192,7 +188,6 @@
   font-size: clamp(3rem, 5vw, 5.2rem);
   font-weight: 300;
   line-height: 0.94;
-  letter-spacing: -0.065em;
 }
 
 .approach-community-content p,
@@ -256,7 +251,6 @@
   font-size: clamp(3rem, 5vw, 5rem);
   font-weight: 300;
   line-height: 0.95;
-  letter-spacing: -0.065em;
 }
 
 .approach-partnerships-content > p {
@@ -319,7 +313,6 @@
   font-size: clamp(3rem, 5vw, 5rem);
   font-weight: 300;
   line-height: 0.95;
-  letter-spacing: -0.065em;
 }
 
 .approach-principles-grid {
@@ -344,7 +337,6 @@
   font-family: var(--font-display);
   font-size: 1.8rem;
   font-weight: 400;
-  letter-spacing: -0.04em;
 }
 
 .approach-principles-grid p {
@@ -378,7 +370,6 @@
   font-size: clamp(3rem, 6vw, 6rem);
   font-weight: 300;
   line-height: 0.9;
-  letter-spacing: -0.07em;
 }
 
 .approach-end a {

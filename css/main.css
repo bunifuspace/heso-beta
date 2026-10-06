@@ -199,8 +199,10 @@ select:focus-visible {
 }
 
 .site-header {
-  position: relative;
+  position: fixed;
+  width: 100%;
   z-index: 1000;
+  background: var(--color-accent-light);
 }
 
 .nav-shell {
@@ -220,7 +222,7 @@ select:focus-visible {
   font-family: var(--font-display);
   font-size: 1.5rem;
   font-weight: 600;
-  letter-spacing: -0.06em;
+
   text-decoration: none;
 }
 .desktop-nav {
@@ -328,7 +330,6 @@ select:focus-visible {
   font-size: clamp(3rem, 5vw, 5rem);
   font-weight: 300;
   line-height: 0.88;
-  letter-spacing: -0.07em;
 }
 
 .mega-intro p {
@@ -397,7 +398,6 @@ select:focus-visible {
   font-family: var(--font-display);
   font-size: 1.25rem;
   font-weight: 400;
-  letter-spacing: -0.03em;
 }
 
 .mega-links span {
@@ -598,7 +598,6 @@ select:focus-visible {
   .mobile-contact-link {
     font-family: var(--font-display);
     font-size: 1.7rem;
-    letter-spacing: -0.04em;
   }
 
   .mobile-home-link i,
@@ -616,7 +615,7 @@ select:focus-visible {
     font-size: clamp(2.5rem, 11vw, 4rem);
     font-weight: 300;
     line-height: 1;
-    letter-spacing: -0.065em;
+
     transition: color 0.2s ease;
   }
 
@@ -638,7 +637,6 @@ select:focus-visible {
     font-family: var(--font-display);
     font-size: 1.1rem;
     font-weight: 400;
-    letter-spacing: -0.03em;
   }
 
   .mobile-back {
@@ -692,7 +690,7 @@ select:focus-visible {
     font-family: var(--font-display);
     font-size: clamp(1.8rem, 8vw, 3rem);
     font-weight: 300;
-    letter-spacing: -0.055em;
+
     transition: color 0.2s ease;
   }
 
@@ -846,6 +844,7 @@ main {
   letter-spacing: 0.14em;
   line-height: 1.4;
   text-transform: uppercase;
+  display: none;
 }
 
 .hero .data h1 {
@@ -856,7 +855,7 @@ main {
   font-size: clamp(3rem, 6vw, 6.5rem);
   font-weight: 300;
   line-height: 0.94;
-  letter-spacing: -0.065em;
+
   text-transform: none;
 }
 
@@ -959,7 +958,6 @@ main {
   font-size: clamp(1.7rem, 3vw, 2.4rem);
   font-weight: 500;
   line-height: 1;
-  letter-spacing: -0.04em;
 }
 
 .cat img {
@@ -995,7 +993,6 @@ main {
   font-size: clamp(2.5rem, 5vw, 4.5rem);
   font-weight: 300;
   line-height: 0.95;
-  letter-spacing: -0.065em;
 }
 
 .section-title h2 span {
@@ -1133,7 +1130,6 @@ main {
   font-size: clamp(1.25rem, 2vw, 1.7rem);
   font-weight: 600;
   line-height: 1.25;
-  letter-spacing: -0.025em;
 }
 
 .expertise-card p {
@@ -1231,7 +1227,7 @@ main {
   font-size: clamp(2.3rem, 4vw, 4.5rem);
   font-weight: 400;
   line-height: 0.98;
-  letter-spacing: -0.055em;
+
   text-transform: none;
 }
 
@@ -1285,7 +1281,7 @@ main {
   font-size: clamp(2rem, 4vw, 3.5rem);
   font-weight: 400;
   line-height: 1;
-  letter-spacing: -0.05em;
+
   text-transform: none;
 }
 
@@ -1437,7 +1433,6 @@ main {
   font-size: clamp(1.8rem, 3.2vw, 3.2rem);
   font-weight: 300;
   line-height: 1.1;
-  letter-spacing: -0.045em;
 }
 
 .fact .data a {
@@ -1779,7 +1774,7 @@ main {
   font-size: clamp(2rem, 3vw, 2.5rem);
   font-weight: 800;
   line-height: 1;
-  letter-spacing: -0.07em;
+
   text-decoration: none;
 }
 

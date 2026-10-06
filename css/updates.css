@@ -43,7 +43,6 @@
   font-size: clamp(3.5rem, 7vw, 7rem);
   font-weight: 300;
   line-height: 0.9;
-  letter-spacing: -0.07em;
 }
 
 .updates-hero-content p {
@@ -82,7 +81,6 @@
   font-size: clamp(2.8rem, 5vw, 5rem);
   font-weight: 300;
   line-height: 0.95;
-  letter-spacing: -0.065em;
 }
 
 .featured-update {
@@ -125,7 +123,6 @@
   font-size: clamp(2.3rem, 4vw, 4rem);
   font-weight: 300;
   line-height: 0.98;
-  letter-spacing: -0.055em;
 }
 
 .featured-update-content p {
@@ -195,7 +192,6 @@
   font-size: 1.7rem;
   font-weight: 400;
   line-height: 1.05;
-  letter-spacing: -0.04em;
 }
 
 .update-card-content p {
@@ -221,7 +217,6 @@
   font-size: clamp(2.8rem, 5vw, 5rem);
   font-weight: 300;
   line-height: 0.95;
-  letter-spacing: -0.065em;
 }
 
 .updates-gallery-grid {
@@ -271,7 +266,6 @@
   font-size: clamp(2.8rem, 5vw, 5rem);
   font-weight: 300;
   line-height: 0.95;
-  letter-spacing: -0.065em;
 }
 
 .updates-resources p {
@@ -313,7 +307,7 @@
 .updates-cta > div {
   width: min(850px, 100%);
   margin: auto;
-  text-align: center;
+  text-align: left;
 }
 
 .updates-cta > div > span {
@@ -327,7 +321,6 @@
   font-size: clamp(3rem, 6vw, 6rem);
   font-weight: 300;
   line-height: 0.95;
-  letter-spacing: -0.065em;
 }
 
 .updates-cta p {
