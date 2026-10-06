@@ -822,7 +822,7 @@ main {
   min-height: 100%;
   background:
     linear-gradient(90deg, rgba(0, 79, 42, 0.04), rgba(0, 79, 42, 0.18)),
-    url(/uploads/annie-spratt-KBpIcWV6o2c-unsplash.jpg) center/cover;
+    url(../uploads/annie-spratt-KBpIcWV6o2c-unsplash.jpg) center/cover;
 }
 
 .hero .data {
@@ -1197,7 +1197,7 @@ main {
   min-height: 500px;
   background:
     linear-gradient(90deg, rgba(0, 79, 42, 0.02), rgba(0, 79, 42, 0.15)),
-    url(/uploads/mohammad-minhaz-uDG2-d4oUn8-unsplash.jpg) center/cover;
+    url(../uploads/mohammad-minhaz-uDG2-d4oUn8-unsplash.jpg) center/cover;
 }
 
 .seed .data {
@@ -1368,15 +1368,15 @@ main {
 }
 
 .events .wrapper .card.planting {
-  background-image: url(/uploads/noah-buscher-x8ZStukS2PM-unsplash.jpg);
+  background-image: url(../uploads/noah-buscher-x8ZStukS2PM-unsplash.jpg);
 }
 
 .events .wrapper .card.hazard {
-  background-image: url(/uploads/terren-hurst-blgOFmPIlr0-unsplash.jpg);
+  background-image: url(../uploads/terren-hurst-blgOFmPIlr0-unsplash.jpg);
 }
 
 .events .wrapper .card.anivesa {
-  background-image: url(/uploads/noaa-SkJG9sNkQVQ-unsplash.jpg);
+  background-image: url(../uploads/noaa-SkJG9sNkQVQ-unsplash.jpg);
 }
 
 .barge {
@@ -1464,7 +1464,7 @@ main {
   min-height: 480px;
   background:
     linear-gradient(180deg, rgba(0, 0, 0, 0.02), rgba(0, 0, 0, 0.12)),
-    url(/uploads/nathan-dumlao-kDxqbAvEBwI-unsplash.jpg) center/cover;
+    url(../uploads/nathan-dumlao-kDxqbAvEBwI-unsplash.jpg) center/cover;
 }
 
 .sr-only {
