@@ -24,7 +24,7 @@
   overflow: hidden;
   background:
     linear-gradient(120deg, rgba(0, 79, 42, 0.97), rgba(0, 79, 42, 0.8)),
-    url("/uploads/raouf-belfaci-uIDAGs2lUd0-unsplash.jpg") center/cover;
+    url("../uploads/raouf-belfaci-uIDAGs2lUd0-unsplash.jpg") center/cover;
   border-radius: 0 0 18% 8% / 0 0 12% 5%;
 }
 
@@ -146,7 +146,7 @@
   min-height: 650px;
   background:
     linear-gradient(90deg, rgba(0, 79, 42, 0.04), rgba(0, 79, 42, 0.2)),
-    url("/uploads/gaf-clickz-gryMACx9reI-unsplash.jpg") center/cover;
+    url("../uploads/gaf-clickz-gryMACx9reI-unsplash.jpg") center/cover;
 }
 
 .commitment-content {
